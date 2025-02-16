@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduHub - Платформа для навчання</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">EduHub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><button class="contact-btn">Зв'язатися</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Розвивайся разом з нами</h1>
+                <p>Онлайн-курси від провідних експертів для вашого професійного зростання</p>
+                <div class="cta-buttons">
+                    <button class="primary-btn">Почати навчання</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Наші переваги</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Голова -->
+                        <circle cx="32" cy="20" r="12" fill="#4B0082"/>
+                        
+                        <!-- Тіло -->
+                        <path d="M32 32C22 32 14 40 14 50V56H50V50C50 40 42 32 32 32Z" fill="#4B0082"/>
+                        
+                        <!-- Мантія -->
+                        <path d="M18 48V50H46V48C46 40 40 34 32 34C24 34 18 40 18 48Z" fill="#FFD700"/>
+                        
+                        <!-- Кваліфікаційний капелюх -->
+                        <rect x="24" y="8" width="16" height="4" fill="#FFD700"/>
+                        <rect x="28" y="4" width="8" height="4" fill="#FFD700"/>
+                        
+                        <!-- Диплом -->
+                        <rect x="44" y="36" width="8" height="12" transform="rotate(-15 44 36)" fill="#FFD700"/>
+                        
+                        <!-- Окуляри -->
+                        <circle cx="28" cy="18" r="2" fill="#FFD700"/>
+                        <circle cx="36" cy="18" r="2" fill="#FFD700"/>
+                        <path d="M30 18H34" stroke="#FFD700" stroke-width="1"/>
+                    </svg>
+                    <h3>Досвідчені викладачі</h3>
+                    <p>Навчайтеся у кращих фахівців своєї справи</p>
+                </div>
+                <div class="feature-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Циферблат -->
+                        <circle cx="32" cy="32" r="24" fill="#4B0082"/>
+                        <circle cx="32" cy="32" r="20" fill="white"/>
+                        
+                        <!-- Стрілки годинника -->
+                        <path d="M32 32L32 18" stroke="#4B0082" stroke-width="2"/>
+                        <path d="M32 32L42 32" stroke="#FFD700" stroke-width="3"/>
+                        
+                        <!-- Цифри -->
+                        <circle cx="32" cy="14" r="2" fill="#FFD700"/>
+                        <circle cx="50" cy="32" r="2" fill="#FFD700"/>
+                        <circle cx="32" cy="50" r="2" fill="#FFD700"/>
+                        <circle cx="14" cy="32" r="2" fill="#FFD700"/>
+                    </svg>
+                    <h3>Гнучкий графік</h3>
+                    <p>Навчайтеся у зручний для вас час</p>
+                </div>
+                <div class="feature-card">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Фон сертифіката -->
+                        <rect x="8" y="12" width="48" height="40" fill="#4B0082"/>
+                        <rect x="10" y="14" width="44" height="36" fill="white"/>
+                        
+                        <!-- Декоративна рамка -->
+                        <rect x="12" y="16" width="40" height="32" stroke="#FFD700" stroke-width="2"/>
+                        
+                        <!-- Печатка -->
+                        <circle cx="44" cy="40" r="6" fill="#FFD700"/>
+                        
+                        <!-- Лінії тексту -->
+                        <rect x="16" y="24" width="24" height="2" fill="#4B0082"/>
+                        <rect x="16" y="30" width="32" height="2" fill="#4B0082"/>
+                        <rect x="16" y="36" width="20" height="2" fill="#4B0082"/>
+                    </svg>
+                    <h3>Сертифікація</h3>
+                    <p>Отримайте підтвердження ваших знань</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular-courses">
+            <h2>Популярні курси</h2>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <img src="images/course1.jpg" alt="Основи програмування">
+                    <h3>Основи програмування</h3>
+                    <p>Базовий курс для початківців</p>
+                    <span class="price">1499 ₴</span>
+                </div>
+                <div class="course-card">
+                    <img src="images/course2.jpg" alt="Веб-дизайн">
+                    <h3>Веб-дизайн</h3>
+                    <p>UI/UX дизайн та основи Figma</p>
+                    <span class="price">1799 ₴</span>
+                </div>
+                <div class="course-card">
+                    <img src="images/course3.jpg" alt="JavaScript Advanced">
+                    <h3>JavaScript Advanced</h3>
+                    <p>Поглиблений курс JavaScript</p>
+                    <span class="price">2199 ₴</span>
+                </div>
+                <div class="course-card">
+                    <img src="images/course4.jpg" alt="Цифровий маркетинг">
+                    <h3>Цифровий маркетинг</h3>
+                    <p>Стратегії просування в інтернеті</p>
+                    <span class="price">1999 ₴</span>
+                </div>
+                <div class="course-card">
+                    <img src="images/course5.jpg" alt="Python для Data Science">
+                    <h3>Python для Data Science</h3>
+                    <p>Аналіз даних та машинне навчання</p>
+                    <span class="price">2499 ₴</span>
+                </div>
+                <div class="course-card">
+                    <img src="images/course6.png" alt="Англійська для IT">
+                    <h3>Англійська для IT</h3>
+                    <p>Технічна англійська мова</p>
+                    <span class="price">1599 ₴</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>EduHub</h3>
+                <p>Ваш надійний партнер у навчанні</p>
+            </div>
+            <div class="footer-links">
+                <h4>Контакти</h4>
+                <p>Email: info@eduhub.ua</p>
+                <p>Тел: +380 44 123 45 67</p>
+            </div>
+            <div class="social-links">
+                <!-- Соціальні мережі -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html> 
